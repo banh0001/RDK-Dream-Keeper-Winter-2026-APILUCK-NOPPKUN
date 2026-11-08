@@ -1,7 +1,8 @@
 # RDK Dream Keeper Challenge — 2026 Winter
 
 **Participant:** Apiluck Noppkun (Bruce) · [@banh0001](https://github.com/banh0001)
-**Hardware:** D-Robotics RDK X5 · Orbbec Astra Pro HD camera · 2D LiDAR
+**Hardware:** D-Robotics RDK X5 · Orbbec Astra Pro HD camera · 
+2D LiDAR 2WD 
 **Challenge:** [Robotics Dream Keeper Challenge 2026 Winter](https://github.com/D-Robotics/Robotics-Dream-Keeper-Challenge-Winter)
 
 My journey on D-Robotics RDK X5 — from first boot to an on-device AI robot.
