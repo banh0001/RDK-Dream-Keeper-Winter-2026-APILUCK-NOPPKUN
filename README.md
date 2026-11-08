@@ -83,8 +83,9 @@ timeout 20 python3 -u /root/evidence/yolo_headless.py
 
 ## Links
 
-- Discord Stage 1 check-in: [personal thread](https://discord.com/channels/1300358874280230994/1563152274644144208)
-- Showcase PR: [#3](https://github.com/D-Robotics/Robotics-Dream-Keeper-Challenge-Winter/pull/3)
+- Video Stage 1 in YouTube : [link_Here](https://www.youtube.com/watch?v=c4Peek3lHeY)
+- Discord Stage 1 check-in: [personal thread_Here](https://discord.com/channels/1300358874280230994/1563152274644144208)
+- Showcase PR: [#Here](https://github.com/D-Robotics/Robotics-Dream-Keeper-Challenge-Winter/pull/3)
 
 ## License
 
