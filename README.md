@@ -6,12 +6,14 @@
 
 My journey on D-Robotics RDK X5 — from first boot to an on-device AI robot.
 
+**Project:** Service Robot Kit for Autonomous Navigation on RDK X5
+
 ## Progress
 
 | Stage | Window | Status | Details |
 | --- | --- | --- | --- |
 | Stage 1 — Ignite | Nov 1–10, 2026 | ✅ Completed | [`stage1-ignite/`](stage1-ignite/) |
-| Stage 2 — Build | Nov 11–26, 2026 | ⏳ Planned | Semantic navigation robot (proposal coming) |
+| Stage 2 — Build | Nov 11–26, 2026 | ⏳ Planned | Service Robot Kit for Autonomous Navigation (proposal coming) |
 | Stage 3 — Launch | Nov 27 – Dec 15, 2026 | ⏳ Planned | — |
 
 ---
@@ -78,8 +80,8 @@ timeout 20 python3 -u /root/evidence/yolo_headless.py
 
 ## Links
 
-- Discord Stage 1 check-in: `https://discord.com/channels/1300358874280230994/1563152274644144208`
-- Showcase PR: `<paste PR link here>`
+- Discord Stage 1 check-in: [personal thread](https://discord.com/channels/1300358874280230994/1563152274644144208)
+- Showcase PR: [#3](https://github.com/D-Robotics/Robotics-Dream-Keeper-Challenge-Winter/pull/3)
 
 ## License
 

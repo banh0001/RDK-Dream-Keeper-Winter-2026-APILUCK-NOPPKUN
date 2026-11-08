@@ -1,0 +1,94 @@
+Opening video device: /dev/video0
+Open USB camera successfully
+[BPU_PLAT]BPU Platform Version(1.3.6)! soc info(x5)
+[HBRT] set log level as 0. version = 3.15.55.0
+[DNN] Runtime version = 1.24.5_(3.15.55 HBRT)
+[A][DNN][packed_model.cpp:247][Model](2026-11-08,15:05:03.636.699) [HorizonRT] The model builder version = 1.23.5
+[W][DNN]bpu_model_info.cpp:491][Version](2026-11-08,15:05:03.740.713) Model: yolov5s_v2_672x672_bayese_nv12. Inconsistency between the hbrt library version 3.15.55.0 and the model build version 3.15.47.0 detected, in order to ensure correct model results, it is recommended to use compilation tools and the BPU SDK from the same OpenExplorer package.
+=== Model Name List ===
+['yolov5s_v2_672x672_bayese_nv12']
+
+=== Model Count ===
+1
+
+=== Input Counts ===
+yolov5s_v2_672x672_bayese_nv12: 1
+
+=== Input Names ===
+yolov5s_v2_672x672_bayese_nv12:
+  - images
+
+=== Input Tensor Shapes ===
+yolov5s_v2_672x672_bayese_nv12:
+  images -> shape: [1, 3, 672, 672]
+
+=== Input Tensor Types ===
+yolov5s_v2_672x672_bayese_nv12:
+  images -> dtype: NV12
+
+=== Input Quantization Info ===
+yolov5s_v2_672x672_bayese_nv12:
+  images:
+    quanti_type: NONE
+    quantize_axis: 0
+    scale_data: []
+    zero_point_data: []
+
+=== Input Tensor Stride ===
+yolov5s_v2_672x672_bayese_nv12:
+  images -> stride: [0, 0, 0, 0]
+
+================ OUTPUT TESTS ================
+
+=== Output Counts ===
+yolov5s_v2_672x672_bayese_nv12: 3
+
+=== Output Names ===
+yolov5s_v2_672x672_bayese_nv12:
+  - small_obj_feature_map
+  - medium_obj_feature_map
+  - big_obj_feature_map
+
+=== Output Tensor Shapes ===
+yolov5s_v2_672x672_bayese_nv12:
+  big_obj_feature_map -> shape: [1, 21, 21, 255]
+  medium_obj_feature_map -> shape: [1, 42, 42, 255]
+  small_obj_feature_map -> shape: [1, 84, 84, 255]
+
+=== Output Tensor Types ===
+yolov5s_v2_672x672_bayese_nv12:
+  big_obj_feature_map -> dtype: F32
+  medium_obj_feature_map -> dtype: F32
+  small_obj_feature_map -> dtype: F32
+
+=== Output Quantization Info ===
+yolov5s_v2_672x672_bayese_nv12:
+  big_obj_feature_map:
+    quanti_type: NONE
+    quantize_axis: 0
+    scale_data: []
+    zero_point_data: []
+  medium_obj_feature_map:
+    quanti_type: NONE
+    quantize_axis: 0
+    scale_data: []
+    zero_point_data: []
+  small_obj_feature_map:
+    quanti_type: NONE
+    quantize_axis: 0
+    scale_data: []
+    zero_point_data: []
+
+=== Output Tensor Stride ===
+yolov5s_v2_672x672_bayese_nv12:
+  big_obj_feature_map -> stride: [449820, 21420, 1020, 4]
+  medium_obj_feature_map -> stride: [1799280, 42840, 1020, 4]
+  small_obj_feature_map -> stride: [7197120, 85680, 1020, 4]
+
+=== Scheduling Parameters ===
+yolov5s_v2_672x672_bayese_nv12:
+  priority    : 0
+  customId    : 0
+  bpu_cores   : [0]
+  deviceId    : 0
+Place the mouse in the display window and press 'q' to quit
