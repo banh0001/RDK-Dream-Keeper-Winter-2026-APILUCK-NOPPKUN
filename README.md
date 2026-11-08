@@ -78,7 +78,7 @@ timeout 20 python3 -u /root/evidence/yolo_headless.py
 
 ## Links
 
-- Discord Stage 1 check-in: `<paste permalink here>`
+- Discord Stage 1 check-in: `https://discord.com/channels/1300358874280230994/1563152274644144208`
 - Showcase PR: `<paste PR link here>`
 
 ## License
