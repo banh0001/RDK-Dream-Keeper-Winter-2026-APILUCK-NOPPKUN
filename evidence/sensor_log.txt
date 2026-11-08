@@ -1,6 +1,0 @@
-Astra Pro HD Camera: Astra Pro  (usb-xhci-hcd.2.auto-1.2.1):
-	/dev/video0
-	/dev/video1
-	/dev/media0
-
-capture ok: True size: (720, 1280, 3)
